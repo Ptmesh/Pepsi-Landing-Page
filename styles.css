@@ -1,0 +1,181 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section
+{
+    position: relative;
+    display: flex;
+    padding: 100px;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.5s;
+    background: #0062be;
+    width: 100%;
+    min-height: 100vh;
+}
+
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo
+{
+    position: relative;
+    min-width: 80px;
+} 
+
+header ul
+{
+    position: relative;
+    display: flex;
+}
+
+header li 
+{
+    list-style: none;
+}
+
+header ul li a
+{
+    padding: 5px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.content
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .txtbox
+{
+    position: relative;
+    max-width: 600px;
+}
+
+.content .txtbox h2
+{
+    color: #fff;
+    font-size: 4rem;
+    line-height: 1.5em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.content .txtbox h2 span 
+{
+    font-size: 2em;
+}
+
+.content .txtbox p 
+{
+    color: #fff;
+}
+
+.content .txtbox a 
+{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #fff;
+    color: #111;
+    border-radius: 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.content .imgbox
+{
+    max-width: 600px;
+    display: flex;
+    padding-right: 50px;
+    justify-content: flex-end;
+}
+
+.content .imgbox img 
+{
+    max-width: 260px;
+}
+
+.spinner
+{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.spinner li 
+{
+    display: inline-block;
+    margin: 0 20px;
+    list-style: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.spinner li:hover
+{
+    transform: translateY(-15px);
+}
+
+.spinner li img
+{
+    max-width: 45px;
+}
+
+.social 
+{
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 30px;
+    top: 50%;
+    position: absolute;
+    flex-direction: column;
+}
+
+.social li 
+{
+    text-decoration: none;
+    list-style: none;
+}
+
+.social li a 
+{
+    display: inline-block;
+    filter: invert(1);
+    margin: 5px 0;
+    transform: scale(0.6);
+}
+
+footer 
+{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    position:absolute;
+    bottom: 20px;
+    right: 100px;
+}
